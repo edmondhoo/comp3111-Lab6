@@ -4,7 +4,7 @@ apply plugin: 'jacoco'
 apply plugin: 'application'
 
 
-mainClassName = 'comp3111.labs.lab7.main'
+mainClassName = 'comp3111.labs.lab6.main'
 
 repositories {
     mavenCentral()
@@ -14,7 +14,7 @@ task debug(type:JavaExec) {
 	group 'application'
 	description 'debug'
    jvmArgs '-Xdebug', '-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=9099'
-   main = 'comp3111.labs.lab7.main'
+   main = 'comp3111.labs.lab6.main'
    classpath = sourceSets.main.runtimeClasspath
 } 
 

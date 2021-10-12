@@ -1,4 +1,4 @@
-package comp3111.labs.lab7;
+package comp3111.labs.lab6;
 
 import java.util.Vector;
 
